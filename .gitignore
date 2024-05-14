@@ -1,0 +1,11 @@
+# cache
+__pycache__/
+
+# env setting
+.env
+openai_api_key.txt
+api_keys.py
+
+# vector db
+vectorstore/db_faiss/*
+vectorstore/db_faiss/*
