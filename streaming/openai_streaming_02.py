@@ -20,10 +20,10 @@ start_time = time.time()
 response = client.chat.completions.create(
     model='gpt-3.5-turbo',
     messages=[
-        {'role': 'user', 'content': 'Count to 100, with a comma between each number and no newlines. E.g., 1, 2, 3, ...'}
+        {'role': 'user', 'content': 'Count to 30, with a comma between each number and no newlines. E.g., 1, 2, 3, ...'}
     ],
     temperature=0,
-    stream=True  # again, we set stream=True
+    stream=True,  # again, we set stream=True
 )
 # create variables to collect the stream of chunks
 collected_chunks = []
