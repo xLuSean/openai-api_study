@@ -1,3 +1,6 @@
+##########################################################################
+### basic streaming example from langchain website
+##########################################################################
 from dotenv import load_dotenv
 load_dotenv()
 from langchain_openai import OpenAI
